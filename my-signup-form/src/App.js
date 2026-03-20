@@ -1,11 +1,8 @@
-import TournamentRegistration from './TournamentRegistration';
+import TournamentRegistration from './components';
+import PrimitiveShowcase from './components/primitiveShowcase';
 
 function App() {
-  return (
-    <div className="App">
-      <TournamentRegistration />
-    </div>
-  );
+  return <PrimitiveShowcase />;
 }
 
 export default App;

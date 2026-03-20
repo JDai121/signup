@@ -1,0 +1,10 @@
+frontend:
+pip install stripe and those
+npm run start
+
+
+backend:
+python manage.py runserver
+source venv/bin/activate
+docker compose up
+docker compose down
